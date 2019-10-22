@@ -1,0 +1,16 @@
+.Card {
+	display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.Card h3 {
+	font-size: 30px
+}
+
+.Cards {
+	flex-wrap: wrap;
+	flex-basis: 200px
+	flex-grow: 1;
+}
